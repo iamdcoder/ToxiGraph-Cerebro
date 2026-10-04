@@ -143,12 +143,12 @@ export default function LongitudinalVoicePanel({ profileId, recording, fusion, f
     }
   }
 
-  if (!profileId) return null;
-
   const changeSessionPayload = useMemo(
     () => (canSave ? payloadFromAnalysis({ recording, fusion, features: features.features, affect, insights }) : null),
     [canSave, recording?.url, recording?.durationSeconds, fusion, features?.features, affect, insights],
   );
+
+  if (!profileId) return null;
 
   return (
     <section className="longitudinal-panel panel-card">

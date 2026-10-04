@@ -8,7 +8,7 @@
 ![Frontend](https://img.shields.io/badge/frontend-React%2019-0f172a?style=flat-square)
 ![Audio](https://img.shields.io/badge/audio-16%20kHz%20PCM16-0f172a?style=flat-square)
 ![Tests](https://img.shields.io/badge/tests-271%20passing-0f172a?style=flat-square)
-![Version](https://img.shields.io/badge/version-0.27.0-0f172a?style=flat-square)
+![Version](https://img.shields.io/badge/version-0.27.1-0f172a?style=flat-square)
 
 ---
 
@@ -1080,7 +1080,7 @@ The backend template is intentionally explicit. Important variables include:
 
 ```env
 APP_NAME=CEREBRO
-APP_VERSION=0.27.0
+APP_VERSION=0.27.1
 API_PREFIX=/api/v1
 ALLOWED_ORIGINS=http://localhost:5173,http://localhost:3000
 MODEL_MODE=auto
@@ -1377,6 +1377,6 @@ CEREBRO intentionally favors **transparent evidence, reproducible evaluation, ex
 ## Project version
 
 ```text
-CEREBRO v0.27.0
+CEREBRO v0.27.1
 ALGOTHON'26 submission build
 ```

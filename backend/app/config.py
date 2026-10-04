@@ -7,7 +7,7 @@ load_dotenv()
 
 class Settings:
     APP_NAME: str = os.getenv("APP_NAME", "CEREBRO")
-    APP_VERSION: str = os.getenv("APP_VERSION", "0.27.0")
+    APP_VERSION: str = os.getenv("APP_VERSION", "0.27.1")
     DEBUG: bool = os.getenv("DEBUG", "false").lower() == "true"
 
     SECURITY_HEADERS_ENABLED: bool = os.getenv("SECURITY_HEADERS_ENABLED", "true").lower() == "true"
