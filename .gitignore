@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# ML artifacts
+models/
+checkpoints/
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Data caches
+.cache/
+hf_cache/
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local recordings
+recordings/
+*.wav
+*.webm
+*.mp3
+models/*.joblib
+artifacts/baseline/
+artifacts/evaluation/
+artifacts/fusion_predictions/
+
+artifacts/robustness/
+
+# Voice-change generated reports
+backend/artifacts/voice_change/
+
+# Speaker-specific calibration data
+artifacts/personalization/
+# Profile and experiment artifacts
+artifacts/personal_baselines/
+artifacts/voice_history/
+artifacts/optimization/
+artifacts/cache/
